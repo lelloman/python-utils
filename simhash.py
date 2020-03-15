@@ -27,4 +27,4 @@ def compute_sim_hash(text):
 
 for sentence in sentences:
     sim_hash = compute_sim_hash(sentence)
-    print ''.join(['0' if x <= 0 else '1' for x in sim_hash]), sentence
+    print(''.join(['0' if x <= 0 else '1' for x in sim_hash]), sentence)
